@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    th {
+      cursor: pointer;
+    }
+    th:hover {
+      background: yellow;
+    }
+   </style>
+</head>
+<body>
+  <table id="grid" class="sorter-on">
+    <thead>
+      <tr>
+        <th data-type="number">Возраст</th>
+        <th data-type="string">Имя</th>
+        <th data-type="date">Дата</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5</td>
+        <td>Вася</td>
+        <td>02/04/2015</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td class="sorter-on">Артем</td>
+        <td>14/05/2015</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>2Богдан</td>
+        <td>13/03/2015</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>;Богдан</td>
+        <td>13/03/2015</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Петя</td>
+        <td>19/09/2015</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Женя</td>
+        <td>23/02/2015</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Маша</td>
+        <td>31/11/2015</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Илья</td>
+        <td>12/03/2015</td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="button">Click</button>
+  <span>status=</span>
+  <span class="status"></span>
+  <table class="sorter-on">
+    <thead>
+      <tr>
+        <th data-type="number">Возраст</th>
+        <th data-type="string">Имя</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5</td>
+        <td>Вася</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Артем</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>Богдан</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Петя</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Женя</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Маша</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Илья</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="table-sorter.js"></script>
+</body>
+</html>
